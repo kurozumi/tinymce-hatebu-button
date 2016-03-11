@@ -25,10 +25,6 @@
                     plugin_url: url
                 });
             });
-
-            ed.onNodeChange.add(function (ed, cm, n) {
-                cm.setActive('tinymce_hatebu_button', n.nodeName == 'button');
-            });
         }
     });
 
