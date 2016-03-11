@@ -6,7 +6,7 @@ if (!is_admin())
 
 $keyword = ($_POST["keyword"]) ? $_POST["keyword"] : "wordpress";
 
-$url = sprintf("http://b.hatena.ne.jp/search/text?q=%s&mode=rss", $keyword);
+$url = sprintf("http://b.hatena.ne.jp/search/text?q=%s&mode=rss", urlencode($keyword));
 
 $options = array(
 	"http" => array(
