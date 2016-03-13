@@ -22,8 +22,6 @@
             });
         }
 
-        editor.addCommand("dialog", showDialog);
-
         editor.addButton('tinymce_hatebu_button', {
             image: url + '/images/icon.png',
             tooltip: 'はてなブックマーク',
