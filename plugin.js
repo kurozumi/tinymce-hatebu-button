@@ -7,7 +7,7 @@
             var win = editor.windowManager.open({
                 title: "はてなブックマーク",
                 file: url + '/dialog.php',
-                width: 600,
+                width: 780,
                 height: 300,
                 inline: 1,
                 buttons: [{
